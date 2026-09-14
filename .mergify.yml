@@ -1,15 +1,1 @@
-pull_request_rules:
-  - name: VM6 direct detach delete positive
-    conditions:
-      - closed
-      - head-repo-full-name = ivastic-vm6-secondary-20260911/vm6-delete-detach-fork-20260915
-      - head = vm6-delete-positive-20260915
-    actions:
-      delete_head_branch: {}
-  - name: VM6 direct detach delete treatment
-    conditions:
-      - closed
-      - head-repo-full-name = ivastic-vm6-secondary-20260911/vm6-delete-detach-fork-20260915
-      - head = vm6-delete-detached-20260915
-    actions:
-      delete_head_branch: {}
+{}
